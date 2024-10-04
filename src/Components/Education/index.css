@@ -1,0 +1,36 @@
+.education{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.chh{
+    margin-top: 20px;
+}
+
+.education-head{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #0275d8;
+}
+
+.content:hover{
+    background-color: #0275d8;
+    color:white ;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+    padding: 2px;
+   
+
+}
+
+.chronooooo{
+    position:static;
+}
+
+@media (max-width:768px) {
+
+    .education-head{
+        text-align: left;
+    }
+}

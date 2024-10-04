@@ -1,0 +1,49 @@
+.services{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.services-divv{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-head{
+    margin-bottom: 30px;
+    color: #3A98B9;
+}
+
+.service1-img{
+    height: 150px;
+    width: 100%;
+}
+
+.service1{
+    width:280px;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.service1 h3{
+    padding: 10px;
+}
+
+.service1 p{
+    padding: 10px;
+    font-size: 15px;
+    color: #555969;
+    
+}
+
+@media (max-width:768px) {
+    .services-divv{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .service1{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.footerContainer{
+    background-color: #C73659;
+    padding: 20px;
+    margin-top: 30px;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.signature{
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+text-transform: capitalize;
+
+  
+}

@@ -1,0 +1,146 @@
+.navbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: antiquewhite;
+    z-index: 10
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul li:hover{
+    color: #C73659;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.nav-head{
+    color: #C73659;
+    font-size: 35px;
+}
+
+.navbar-button{
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    color: #C73659;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px solid #C73659;
+}
+
+.navbar-button:hover{
+    background-color: #C73659;
+    color: white;
+    border: 2px solid white;
+    .letsConnect:hover{
+        color: white !important
+    }
+
+}
+
+.nav-ul-mobile{
+   list-style: none;
+   color: white;
+    
+}
+
+.nav-ul-mobile li{
+    padding-top: 12px;
+}
+
+.nav-mobile{
+    display: none;
+    height: fit-content;
+    background-color: #C73659;
+    width: 50vw;
+    right: 0;
+    position: fixed;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    top: 0;
+    z-index: 10
+}
+
+.letsConnect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.letsConnectMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.navbar-button:hover .letsConnect:hover {
+    color: white !important;
+  }
+  
+.navbar-button-mobile:hover .letsConnectMobile:hover{
+    color: #C73659 !important;
+}
+
+
+@media (max-width:768px) {
+
+    .navbar{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: block;
+    }
+    .nav-head{
+        color: white;
+    }
+
+    .navbar-button-mobile{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #C73659;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    }
+    .navbar-button-mobile:hover{
+        background-color: white;
+        color: #C73659;
+        border: 2px solid #C73659;
+    }
+
+    .iconsample{
+        text-align: right;
+        width: 90%;
+        margin-left: 13px;
+        background-color: #C73659;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-radius: 100%;
+    }
+}
