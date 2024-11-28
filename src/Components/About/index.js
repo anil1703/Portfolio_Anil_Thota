@@ -13,7 +13,7 @@ const About = () => {
                 <p>Hi, I'm Thota Anil Sai Kumar!
 
 I recently completed my Bachelor's degree in Computer Science, where I gained a solid foundation in programming and software development. I am actively seeking opportunities as a Full Stack Developer, where I can leverage my skills in both front-end and back-end technologies. My passion for coding and problem-solving drives me to continuously learn and improve, and I am excited to contribute to innovative projects in the tech industry</p>
-<a  rel="noreferrer"  href = "https://drive.google.com/file/d/1gBkuHp2FIt1yZN8ObaBCnaz9C1lKT8V1/view" target="_blank"><button className="resume-btn-style">Resume <IoCloudDownloadOutline/></button></a>
+<a  rel="noreferrer"  href = "https://drive.google.com/file/d/1RIFlMAA5FMFDEwoMi25KWi4CFbHGvmIw/view?usp=sharing" target="_blank"><button className="resume-btn-style">Resume <IoCloudDownloadOutline/></button></a>
             </div>
             <div>
 
